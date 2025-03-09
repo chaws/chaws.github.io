@@ -1,8 +1,11 @@
 ---
-layout: post
 title:  "Creating an ELK stack for visualizing KernelCI data!"
 date:   2019-04-15 07:41:10 -0300
-categories: jekyll update
+categories:
+  - Blog
+tags:
+  - Post Formats
+  - notice
 ---
 
 # Introduction

@@ -1,8 +1,14 @@
 ---
-layout: post
 title:  "AWS EKS+Fargate bug"
 date:   2020-08-07 07:41:10 -0300
-categories: en linux kubernetes
+categories:
+  - Blog
+tags:
+  - linux
+  - aws
+  - eks
+  - fargate
+  - kubernetes
 ---
 
 # Introduction

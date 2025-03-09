@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Figuring out your Kernel configuration"
 date:   2019-06-12 07:41:10 -0300
-categories: en kernel
+categories:
+  - Blog
+tags:
+  - linux
+  - kernel
+  - bash
 ---
 
 # Introduction

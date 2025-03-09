@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Look shared library dependencies"
 date:   2019-06-12 07:41:10 -0300
-categories: en linux
+categories:
+  - Blog
+tags:
+  - linux
+  - make
+  - gcc
 ---
 
 # Introduction

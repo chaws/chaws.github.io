@@ -1,8 +1,13 @@
 ---
-layout: post
 title:  "Compiling FreeRTOS Demo for LPC2106 using GCC on Linux"
 date:   2021-03-19 07:41:10 -0300
-categories: en linux make freertos rtos
+categories:
+  - Blog
+tags:
+  - linux
+  - make
+  - freertos
+  - rtos
 ---
 # Introduction
 

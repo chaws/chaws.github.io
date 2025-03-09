@@ -1,8 +1,13 @@
 ---
-layout: post
 title:  "Compiling U-Boot for Raspberry Pi 3"
 date:   2019-04-16 07:41:10 -0300
-categories: en
+categories:
+  - Blog
+tags:
+  - raspberry pi
+  - linux
+  - u-boot
+  - embedded systems
 ---
 
 This post is an improvement of [this one][original-post]. I changed some bits and pieces I found a bit confusing on the original post.

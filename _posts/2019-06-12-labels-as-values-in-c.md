@@ -1,8 +1,11 @@
 ---
-layout: post
 title:  "Labels as values in C"
 date:   2019-06-12 07:41:10 -0300
-categories: en cprogramming
+categories:
+  - Blog
+tags:
+  - c
+  - programming
 ---
 
 # Introduction

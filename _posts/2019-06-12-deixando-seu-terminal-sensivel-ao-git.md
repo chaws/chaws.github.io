@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Deixando seu terminal sensivel ao GIT"
 date:   2019-06-12 07:41:10 -0300
-categories: pt
+categories:
+  - Blog
+tags:
+  - git
+  - linux
+  - bash
 ---
 
 # Introdução

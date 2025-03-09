@@ -1,0 +1,29 @@
+# How to deploy Django
+- This post should cover the basics of a Django application, basic concepts and how to deploy for production environments
+- Deploy on AWS: EC2, ECS, ElasticBeanstalk, Lambdas
+
+# How to create users under your OUs
+- Tutorials everywhere always assume that creating accounts will work the first time
+- In reality, you need to create an IAM user with admin powers, log in to that, then go on "Root access management", select the account created and enable password recovery
+
+# Overengineering
+- While I was putting together my own website, lots of thoughts came up such as Cloud provider, Lambdas, EC2, EKS.
+- picking the cloud provider was easy as I do already have experience with AWS
+- Deciding the deployment structure was tricky because you hear all great things Lambdas can provide you
+  but it is not very clear how to limit it uses, so if a bot happens to catch your website, Lambdas end up costing more than expected
+- Sometimes less is more, so I went with a simple EC2 small instance that will more more than capable of handling my load
+- If someday I realize that more is needed, then I'll take actions accordingly.
+
+# Python has SQLite Built-in
+- I've been using python for over a decade now, here are a few tricks I learned to enjoy
+
+# Brief experience working with global teams
+- I have been working remotely with global teams for the past 6 years, and I love it.
+- Cultural exchange is a plus
+- With global teams, you have 24h of continuous work and emails and slack and Jira. 
+- The challenge is to keep your normal working ours and prevent from checking on email/slack all the time
+
+# post about mermaid
+Today I'll show you how you can easily draw simple charts without fiddling with UI tools such as Draw.io or other diagram models.
+- pros: version your diagrams, code becomes images
+- cons: limited scope, but IMHO it is enough to pass needed information
