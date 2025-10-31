@@ -27,3 +27,12 @@
 Today I'll show you how you can easily draw simple charts without fiddling with UI tools such as Draw.io or other diagram models.
 - pros: version your diagrams, code becomes images
 - cons: limited scope, but IMHO it is enough to pass needed information
+
+# post on vacuum full
+- Never run Vacuum FULL in production, use pg_repack instead!
+
+# post about integrating django zeal in your project
+Django Zeal is a really neat project and I think every Django project should include that into their pipelines
+
+# post about fundamental systems
+Do you know how you program is executed in Linux?
