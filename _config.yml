@@ -27,6 +27,9 @@ search: true
 # Layout settings for Medium-style appearance
 words_per_minute: 200  # For read time calculation
 
+# Allow posts with future dates
+future: true
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
