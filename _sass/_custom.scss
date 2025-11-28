@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #1a1a1a;
   padding: 0.2em 0.4em;
   border-radius: 3px;
-  color: #d0d0d0;
+  color: #666666;
 }
 
 .page__content pre {
@@ -196,23 +196,48 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1em;
 }
 
-// Navigation
+// Navigation - Integrated header design
 .masthead {
-  border-bottom: 1px solid #e6e6e6;
-  background-color: #fff;
+  border-bottom: none;
+  background-color: transparent;
+  padding: 2em 0 1.5em;
+  margin-bottom: 1em;
 }
 
 .greedy-nav {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: transparent;
+
+  .site-title {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.02em;
+  }
 
   a {
     color: #242424;
     font-size: 0.95em;
+    font-weight: 400;
+    text-decoration: none;
+    transition: color 0.2s ease;
 
     &:hover {
       color: #000;
     }
   }
+
+  .visible-links {
+    a {
+      padding: 0.5em 1em;
+    }
+  }
+}
+
+.masthead__inner-wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 // Page title styling
